@@ -1,0 +1,20 @@
+doctype 5
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width")
+    title Momentum Labs
+    link(rel="stylesheet", href="./style/main.css", type="text/css")
+    script(type="text/javascript", src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js")
+    script(type="text/javascript", src="./behaviour/libraries/jquery.parallaxify.min.js")
+    script(type="text/javascript", src="./behaviour/main.js")
+  body
+    section.who
+        video#v-background(preload="auto", autoplay="true", loop="loop", muted="muted")
+            source(src="./style/videos/water.mp4", type="video/mp4")
+            source(src="./style/videos/water.webm", type="video/webm")
+            source(src="./style/videos/water.ogv", type="video/ogv")
+        #logo Momentum L&aring;bs
+    section.why#space(data-parallaxify-background-range-x="100", data-parallaxify-background-range-y="50")
+        .headline Watch this space.
+    footer.shaded Copyright &copy; Momentum Labs Limited 2013
