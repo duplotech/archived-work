@@ -3,18 +3,40 @@ html(lang="en")
   head
     meta(charset="utf-8")
     meta(name="viewport", content="width=device-width")
+    meta(name="description", content="Momentum Labs helps companies to innovate and grow ideas into game-changing propositions.")
     title Momentum Labs
     link(rel="stylesheet", href="./style/main.css", type="text/css")
     script(type="text/javascript", src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js")
     script(type="text/javascript", src="./behaviour/libraries/jquery.parallaxify.min.js")
+    script(type="text/javascript", src="./behaviour/libraries/jquery.jumbotron.js")
     script(type="text/javascript", src="./behaviour/main.js")
   body
     section.who
         video#v-background(preload="auto", autoplay="true", loop="loop", muted="muted")
-            source(src="./style/videos/water.mp4", type="video/mp4")
-            source(src="./style/videos/water.webm", type="video/webm")
-            source(src="./style/videos/water.ogv", type="video/ogv")
+            source(src="https://s3-eu-west-1.amazonaws.com/momentumlabsio/water.mp4", type="video/mp4")
+            source(src="https://s3-eu-west-1.amazonaws.com/momentumlabsio/water.webm", type="video/webm")
         #logo Momentum L&aring;bs
-    section.why#space(data-parallaxify-background-range-x="100", data-parallaxify-background-range-y="50")
-        .headline Watch this space.
-    footer.shaded Copyright &copy; Momentum Labs Limited 2013
+    section.why#space(data-parallaxify-background-range-x="30", data-parallaxify-background-range-y="30")
+        .clouds
+            .headline
+                | We want you
+                br
+                | to game change
+            .box
+                .about-us
+                    h2 Momentum Labs helps companies to innovate and grow ideas into game-changing mobile apps.
+                    p How?
+                    p By providing holistic rapid prototyping of product ideas as well as product and technology strategy.
+                    p If you'd like our help, get in touch.
+                    p All initial consultations are free.
+                .call
+                    h2 Ready to disrupt?
+                    p
+                        a(href="mailto:hi@momentumlabs.io", class="contact-us") Contact us here.
+                .clear
+    footer.shaded
+        | Copyright &copy; Momentum Labs Limited #{currentYear}
+        | &bull;
+        | Made with &hearts; in London
+        | &bull;
+        a(href="http://twitter.com/bemomentum") @bemomentum
