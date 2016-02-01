@@ -69,7 +69,7 @@ footer { clear: both; }
 }
 
 #logo {
-    font-size: 80px;
+    font-size: 120px;
     font-family: ultraLightFont;
     text-transform: uppercase;
 
@@ -78,7 +78,7 @@ footer { clear: both; }
 
     color: white;
 
-    padding-top: 20%;
+    padding-top: 15%;
 
     text-align: center;
 
@@ -89,7 +89,7 @@ footer { clear: both; }
 .headline {
     font-size: 90px;
     font-family: ultraLightFont;
-    
+
     color: white;
     text-transform: uppercase;
 
@@ -124,7 +124,7 @@ footer { clear: both; }
 
     color: white;
 
-    width: 85%;
+    width: 70%;
     margin: 0 auto;
 
     padding-top: 7.5%;
@@ -229,7 +229,7 @@ footer { clear: both; }
         letter-spacing: 5px;
     }
 
-    .box { width: 80%; }
+    .box { width: 70%; }
     .box h2, .box .contact-us { font-size: 18px; }
     .box .call, .box .about-us {
         width: 100%;
